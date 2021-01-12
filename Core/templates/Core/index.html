@@ -10,6 +10,8 @@
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
       <title>Hybrid Cercas</title>
+      <!-- Favicon -->
+      <link rel="icon" href="{%static 'images/logo_icon.svg'%}">
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -58,16 +60,22 @@
                     <a href="#home" style='color:black;'>Home</a>
                 </li>
                 <li>
-                    <a href="#about" style='color:black'>Vantagens</a>
+                    <a href="#produto" style='color:black'>Nossa Cerca</a>
                 </li>
                 <li>
-                    <a href="#why_choose_us" style='color:black'>Benefícios</a>
+                    <a href="#vantagens" style='color:black'>Vantagens</a>
                 </li>
                 <li>
-                    <a href="#testimonial" style='color:black'>Galeria</a>
+                    <a href="#quem_somos" style='color:black'>Quem somos</a>
                 </li>
                 <li>
-                    <a href="#contact" style='color:black'>Orçamento</a>
+                    <a href="#benefícios" style='color:black'>Benefícios</a>
+                </li>
+                <li>
+                    <a href="#galeria" style='color:black'>Galeria</a>
+                </li>
+                <li>
+                    <a href="#contato" style='color:black'>Orçamento</a>
                 </li>
             </ul>
 
@@ -98,8 +106,8 @@
                <div class="col-lg-9">
                   <div class="right_header_info">
                      <ul>
-                        <li><img style="margin-right: 15px;" src="{%static 'images/phone_icon.png'%}" alt="#" /><a href="#">987-654-3210</a></li>
-                        <li><img style="margin-right: 15px;" src="{%static 'images/mail_icon.png'%}" alt="#" /><a href="#">hybrid.cercas@gmail.com</a></li>
+                        <li><a href="#"> <img style="margin-right: 15px;" src="{%static 'images/phone_icon.png'%}" alt="#" />(19) 99615 5823</a></li>
+                        <li><a href="#contato"> <img style="margin-right: 15px;" src="{%static 'images/mail_icon.png'%}" alt="#" />hybrid.cercas@gmail.com</a></li>
                         <li><img src="{%static 'images/search_icon.png'%}" alt="#" /></li>
                          <li>
                            <button type="button" id="sidebarCollapse">
@@ -123,7 +131,7 @@
                      <br><br><br><br>
 
                      <div class="button_section1">
-                        <a href="#why_choose_us">CONHEÇA OS BENEFÍCIOS</a>
+                        <a href="#benefícios">CONHEÇA OS BENEFÍCIOS</a>
                         <br><br><br><br><br><br>
                      </div>
                   </div>
@@ -138,21 +146,59 @@
       <!-- end section -->
 
       <!-- section -->
-      <div id="about" class="section layout_padding">
-         <div class="container">
-           <h3 class="main_heading _left_side margin_top_30">Vantagens:</h3>
-
-
-
-
-         </div>
+      <div id="produto" class="section layout_padding ">
+        <div class="container">
+           <hr>
+          <h3 class="main_heading _left_side margin_top_30">Produto <span style="color:darkorange">único</span> no mercado:</h3>
+          <hr>
+          <div class="row">
+               <div class="col-lg-8">
+                  <div class="full">
+                    <img src="{%static 'images/cerca.jpg'%}" width="90%" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                   <div class="full">
+                     <h2>Descrição:</h2>
+                     <ol>
+                       <li> <strong>Suportes:</strong> em aço com banho de zinco, nos tamanhos 600mm de altura
+                         com 4 isoladores W e 850mm de altura com 6 isoladores em W;</li>
+                         <br>
+                       <li><strong>Fitas Cortantes:</strong> Galvalume, branca com pintura eletrostática ou de inox;</li>
+                       <br>
+                       <li><strong>Parte Elétrica:</strong>: A mesma ultilizada em cercas elétricas.</li>
+                     </ol>
+                   </div>
+                </div>
+          </div>
+          <hr>
+          <h3 class="main_heading _left_side margin_top_30">Diferenciais:</h3>
+          <hr>
+        </div>
       </div>
       <!-- end section -->
 
 
+      <!-- section -->
+     <section id="quem_somos" class=" layout_padding cross_layout_o padding_top_0">
+       <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="full center">
+                <h2 class="main_heading _left_side margin_top_30">Quem somos </h2>
+              </div>
+            </div>
+          </div>
+
+
+       </div>
+     </section>
+     <!-- end section -->
+
+
 
       <!-- section -->
-      <section id="why_choose_us" class="dark_bg_blue layout_padding cross_layout padding_top_0">
+      <section id="benefícios" class="dark_bg_blue layout_padding cross_layout padding_top_0">
         <div class="container">
            <div class="row">
              <div class="col-md-12">
@@ -175,8 +221,13 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                         <img src="{%static 'images/c2_icon.png'%}" />
-                        <h4>VÁRIAS CAMADAS DE PROTEÇÃO</h4>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                        <h4>PROTEÇÃO TRIPLA</h4>
+                          <p>Alarme <span style='color:orange'>Sonoro</span></p>
+                          <p>+</p>
+                          <p>Choque <span style='color:orange'>Elétrico</span>  </p>
+                          <p>+</p>
+                          <p>Barreira  <span style='color:orange'>Cortante</span> </p>
+
                     </div>
                  </div>
               </div>
@@ -189,9 +240,10 @@
                     </div>
                  </div>
               </div>
+
               <div class="col-md-12 margin_top_30">
                 <div class="full center button_section1 margin_top_30">
-                    <a class="margin_top_30" href="#">SOLICITE SEU ORÇAMENTO</a>
+                    <a class="margin_top_30" href="#contato">SOLICITE ORÇAMENTO</a>
                   </div>
               </div>
            </div>
@@ -200,7 +252,7 @@
       <!-- end section -->
 
        <!-- section -->
-      <section id="testimonial" class="dark_bg_orange layout_padding cross_layout_o padding_top_0">
+      <section id="galeria" class="dark_bg_orange layout_padding cross_layout_o padding_top_0">
         <div class="container">
            <div class="row">
              <div class="col-md-12">
@@ -244,12 +296,12 @@
       <!-- end section -->
 <br><br><br><br><br>
       <!-- section -->
-      <section id="contact" class="dark_bg_blue layout_padding cross_layout padding_top_0 margin_top_0">
+      <section id="contato" class="dark_bg_blue layout_padding cross_layout padding_top_0 margin_top_0">
         <div class="container">
            <div class="row">
              <div class="col-md-12">
                <div class="full center">
-                 <h2 class="heading_main orange_heading" style="padding:0.2em">Solicite seu Orçamento</h2>
+                 <h2 class="heading_main orange_heading" >Contato</h2>
                </div>
              </div>
            </div>
@@ -261,7 +313,7 @@
                           <fieldset class="row">
                             <div class="col-md-12">
                             <div class="full field">
-                              <input type="text" placeholder="Your Name" name="name" />
+                              <input type="text" placeholder="Seu nome" name="name" />
                             </div>
                           </div>
                           <div class="col-md-12">
@@ -271,17 +323,17 @@
                           </div>
                             <div class="col-md-12">
                             <div class="full field">
-                              <input type="text" placeholder="Phone" name="number" />
+                              <input type="text" placeholder="Telefone" name="number" />
                             </div>
                           </div>
                             <div class="col-md-12">
                             <div class="full field">
-                              <textarea placeholder="Message"></textarea>
+                              <textarea placeholder="Mensagem"></textarea>
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="full center">
-                              <button class="submit_bt">Send</button>
+                              <button class="submit_bt">Enviar</button>
                             </div>
                           </div>
                           </fieldset>
@@ -320,16 +372,16 @@
               </div>
               <div class="col-md-4">
                  <div class="full">
-                    <h4 class="widget_heading">SUBSCRIBE</h4>
+                    <h4 class="widget_heading">Entre em contato:</h4>
                  </div>
                  <div class="full subribe_form">
                     <form>
                       <fieldset>
                          <div class="field">
-                           <input type="email" name="mail" placeholder="Enter your email" />
+                           <input type="email" name="mail" placeholder="Insira seu email" />
                          </div>
                          <div class="field">
-                           <button class="submit_bt">Sumbit</button>
+                           <button class="submit_bt">Enviar</button>
                          </div>
                       </fieldset>
                     </form>
@@ -337,7 +389,7 @@
               </div>
               <div class="col-md-4">
                  <div class="full">
-                   <h4 class="widget_heading">Usefull Links</h4>
+                   <h4 class="widget_heading">Links</h4>
                  </div>
                  <div class="full f_menu">
                     <ul>
@@ -345,7 +397,7 @@
                        <li><a href="#">Vantagens</a></li>
                        <li><a href="#">Nossos Produtos</a></li>
                        <li><a href="#">Services</a></li>
-                       <li><a href="#">Testimonial</a></li>
+                       <li><a href="#galeria">Galeria</a></li>
                     </ul>
                  </div>
               </div>
@@ -353,7 +405,7 @@
                  <div class="full">
                    <h4 class="widget_heading">Localização</h4>
                    <div class="full cont_footer">
-                     <p><strong>AVALON Car : Adderess</strong><br><br>Newyork 10012, USA<br>Phone: +987 654 3210<br>hybrid.cercas@gmail.com</p>
+                     <p><strong>Endereço</strong><br><br>Avenida 1, nº336 - Centro - Santa Gertrudes, SP<br><br>Whatsapp: (19)9 9615 5823<br><br>email: hybrid.cercas@gmail.com</p>
                    </div>
                  </div>
               </div>
