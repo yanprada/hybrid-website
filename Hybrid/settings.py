@@ -25,7 +25,7 @@ SECRET_KEY = 'x6lr$ckdw92b7ho@e&(5&s8hq*sv6351@4!!q__vkr4ux8f+8v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','hybridcercas.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','www.hybridcercas.com.br']
 
 
 # Application definition
