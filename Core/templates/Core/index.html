@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 {% load static %}
+{% load bootstrap4 %}
 <html lang="en">
    <head>
       <!-- basic -->
@@ -293,7 +294,7 @@
                      <br>
                      <br>
                     <img src="{%static 'images/galeria/7.jpg'%}" width="95%"alt="" style="padding:2px">
-                    
+
                  </div>
              </div>
            </div>
@@ -358,35 +359,13 @@
               <div class="col-md-6">
                  <div class="full">
                     <div class="contact_form">
-                        <form>
-                          <fieldset class="row">
-                            <div class="col-md-12">
-                            <div class="full field">
-                              <input type="text" placeholder="Seu nome" name="name" />
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="full field">
-                              <input type="email" placeholder="Email" name="email" />
-                            </div>
-                          </div>
-                            <div class="col-md-12">
-                            <div class="full field">
-                              <input type="text" placeholder="Telefone" name="number" />
-                            </div>
-                          </div>
-                            <div class="col-md-12">
-                            <div class="full field">
-                              <textarea placeholder="Mensagem"></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="full center">
-                              <button class="submit_bt">Enviar</button>
-                            </div>
-                          </div>
-                          </fieldset>
-                        </form>
+                      <form method="post" class="form">
+                        {% csrf_token %}
+                        {% for field in form %}
+                          {% bootstrap_field field %}
+                        {% endfor %}
+                        <button class="btn btn-primary btn-md botao" type="submit">Enviar</button>
+                      </form>
                     </div>
                  </div>
               </div>

@@ -1624,12 +1624,18 @@ input[type="radio"] .styled:checked+label::after {
 ---------------------------------------------------------------------*/
 
 .top_section {
-    height: 150vh;
+    height: 120vh;
     background: url('../images/top_bg.jpg');
-
     background-size: cover;
-    background-attachment: fixed;
-}
+    background-attachment: fixed;}
+    @media only screen and (max-width: 767px) {
+      .top_section {
+        height: 150px;
+        background: url('../images/galeria/4.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+      }
+    }
 
 .right_header_info {
     width: 100%;
