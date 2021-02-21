@@ -2037,7 +2037,7 @@ p.large {
 }
 
 .cross_layout_o {
-    min-height: 1000px;
+    min-height: 1100px;
     margin-top: 300px;
     position: relative;
 }
@@ -2330,4 +2330,40 @@ ul.social_links li a:focus {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.galeria {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+
+}
+
+.galeria:hover {
+    border: 1px solid #777;
+}
+
+.galeria  {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
 }
