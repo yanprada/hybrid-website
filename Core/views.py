@@ -16,7 +16,7 @@ def index(request):
             Email = form.cleaned_data['Email']
             Mensagem = "{0} te enviou uma mensagem:\n\nAssunto:\n{1}\n\nMensagem:\n{2}".format(Email,Assunto, form.cleaned_data['Mensagem'])
             try:
-                send_mail(Assunto, Mensagem, Email, ['hybrid.cercas@gmail.com'])
+                send_mail(Assunto, Mensagem, Email, ['hybrid.cercas@gmail.com','ramalho.andre33@gmail.com','ypm.oro@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return render(request, "Core/index.html")
