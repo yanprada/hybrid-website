@@ -2014,7 +2014,7 @@ p.large {
 }
 
 .cross_layout {
-    min-height: 780px;
+    min-height: 1100px;
     margin-top: 300px;
     position: relative;
 }
@@ -2366,4 +2366,10 @@ div.desc {
   width: 100%;
   height: 100%;
   padding: 1em;
+}
+
+.empresas{
+  padding: 15px 0 ;
+  text-align: center;
+
 }
