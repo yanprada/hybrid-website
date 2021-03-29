@@ -2014,11 +2014,15 @@ p.large {
 }
 
 .cross_layout {
-    min-height: 1100px;
+    min-height: 1000px;
     margin-top: 300px;
     position: relative;
 }
-
+.cross_layout2 {
+    min-height: 1300px;
+    margin-top: 300px;
+    position: relative;
+}
 .cross_layout_o {
     min-height: 850px;
     margin-top: 0;
@@ -2026,6 +2030,16 @@ p.large {
 }
 
 .cross_layout::before {
+    content: "";
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: absolute;
+    background: url('../images/cross_blue.png');
+    top: -300px;
+    z-index: 9;
+}
+.cross_layout2::before {
     content: "";
     width: 100%;
     height: 300px;
