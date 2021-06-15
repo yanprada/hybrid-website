@@ -1625,7 +1625,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .top_section {
     height: 120vh;
-    background: url('../images/top_bg.jpg');
+    background: url('../images/galeria/top_bg.jpg');
     background-size: cover;
     background-attachment: fixed;}
     @media only screen and (max-width: 767px) {
